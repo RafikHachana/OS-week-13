@@ -1,0 +1,11 @@
+The 3 methods are used in different scenarios:
+
+-Recovery:
+It is used when the system is already caught in a deadlock, the only way is to either inform the user, kill a process that is part of the deadlock, or preempt a resource (take it away from one of the processes).
+
+-Prevention:
+This is implemented by preventing one of the four required conditions of deadlocks.
+It is useful in systems where all resources may be requested at once.
+
+-Avoidance:
+This method uses algorithms to make sure the system is always in a safe state and cannot enter an unsafe state where it is in danger of a deadlock.
